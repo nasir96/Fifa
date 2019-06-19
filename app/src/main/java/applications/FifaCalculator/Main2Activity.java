@@ -51,11 +51,19 @@ public class Main2Activity extends AppCompatActivity implements View.OnClickList
         if (view == btnZurDB) {
             String ergebisText = _text.getText().toString();
 
-            Intent intent = new Intent();
-            intent.putExtra("von_2_zu_1", ergebisText);
-            setResult(RESULT_OK, intent);
+            if(ergebisText.length() != 0 ) {
 
-            finish();
+                Intent intent = new Intent();
+                intent.putExtra("von_2_zu_1", ergebisText);
+                setResult(RESULT_OK, intent);
+
+                finish();
+            }
+
+            else{
+                Toast.makeText(this, "Bitte Felder ausfüllen", Toast.LENGTH_LONG).show();
+
+            }
         }
 
         if (view == btnBerechne){
@@ -89,7 +97,10 @@ public class Main2Activity extends AppCompatActivity implements View.OnClickList
         if (view == btnReset){
             teilnehmer.setText("");
             dauer.setText("");
-            _text.setText("Ergebnis wurde reseted");
+            _text.setText("");
+            rButtonKO.setChecked(false);
+            rButtonLiga.setChecked(false);
+
         }
 
 
