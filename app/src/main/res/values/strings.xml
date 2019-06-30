@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">EditableListView</string>
+    <string name="hinzufuegen">Hinzufügen</string>
+    <string name="db_ansehen">DB ansehen</string>
+    <string name="formel_berechnen">Formel berechnen</string>
+    <string name="hilfe">Hilfe</string>
+    <string name="berechne">Berechne</string>
+    <string name="turnierteilnehmer_eingeben">Turnierteilnehmer eingeben</string>
+    <string name="spielzeit_in_minuten_eingeben">Spielzeit in Minuten eingeben</string>
+    <string name="liga_system">Liga-System</string>
+    <string name="zur_db">zur DB</string>
+    <string name="hilfe">Hilfe</string>
+    <string name="hier_kommt_der_text_rein">Hier kommt der Text rein</string>
 </resources>

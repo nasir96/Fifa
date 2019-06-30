@@ -35,7 +35,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="70dp"
-            android:text="Hinzufügen" />
+            android:text="@string/hinzufuegen" />
 
         <Button
             android:id="@+id/btnDB"
@@ -43,7 +43,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_toRightOf="@+id/btnAdd"
-            android:text="DB ansehen" />
+            android:text="@string/db_ansehen" />
 
     </RelativeLayout>
 
@@ -62,7 +62,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginEnd="50dp"
             android:layout_marginBottom="50dp"
-            android:text="Formel berechnen" />
+            android:text="@string/formel_berechnen" />
 
     </RelativeLayout>
 
@@ -77,7 +77,7 @@
             android:id="@+id/btnHilfe"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hilfe" />
+            android:text="@string/hilfe" />
     </LinearLayout>
 
 </RelativeLayout>
